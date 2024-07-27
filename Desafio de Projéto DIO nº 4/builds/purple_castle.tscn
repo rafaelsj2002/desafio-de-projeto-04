@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnkeh7vceu7pu"]
+
+[ext_resource type="Texture2D" uid="uid://dugc0cf8v72p2" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Castle/Castle_Purple.png" id="1_higkk"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mei8b"]
+height = 54.4
+
+[node name="PurpleCastle" type="StaticBody2D"]
+
+[node name="CastlePurple" type="Sprite2D" parent="."]
+position = Vector2(0, -84)
+texture = ExtResource("1_higkk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -18)
+rotation = 1.5708
+scale = Vector2(5, 5)
+shape = SubResource("CapsuleShape2D_mei8b")

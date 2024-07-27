@@ -1,0 +1,58 @@
+[gd_scene load_steps=11 format=3 uid="uid://bvur2rub7mms8"]
+
+[ext_resource type="Texture2D" uid="uid://r7a0jvaum1hr" path="res://addons/tf_darkdimension_updated2020/100/dd_waterfall_tileA1_1.png" id="1_6og8k"]
+[ext_resource type="Texture2D" uid="uid://b2mleo46uld7r" path="res://addons/tf_darkdimension_updated2020/100/doorA_1.png" id="2_exvxl"]
+[ext_resource type="Texture2D" uid="uid://ccxjc446ndn0h" path="res://addons/tf_darkdimension_updated2020/100/doorB_1.png" id="3_p86co"]
+[ext_resource type="Texture2D" uid="uid://c2xivqyl3p4d4" path="res://addons/tf_darkdimension_updated2020/100/floatingrocks_1.png" id="4_f201s"]
+[ext_resource type="Texture2D" uid="uid://jkqeqhplctm3" path="res://addons/tf_darkdimension_updated2020/100/tf_dd_A5_1.png" id="5_hqij7"]
+[ext_resource type="Texture2D" uid="uid://bnujdm6uxy7sw" path="res://addons/tf_darkdimension_updated2020/100/tf_dd_B_1.png" id="6_vapk6"]
+[ext_resource type="Texture2D" uid="uid://b30ie8ydmxhaa" path="res://addons/tf_darkdimension_updated2020/dd_waterfall_sheet.png" id="7_624br"]
+[ext_resource type="Texture2D" uid="uid://cv7mflf6jt721" path="res://addons/tf_darkdimension_updated2020/tf_darkdimension_sheet.png" id="8_x4j4t"]
+[ext_resource type="Texture2D" uid="uid://x5prjm4vklaq" path="res://addons/tf_darkdimension_updated2020/RMMV/tf_dd_B_3.png" id="9_b7ih1"]
+[ext_resource type="Texture2D" uid="uid://2g84o4riw1oe" path="res://addons/tf_darkdimension_updated2020/RMVX/tf_dd_B_2.png" id="10_y2snp"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="DdWaterfallTileA11" type="Sprite2D" parent="."]
+position = Vector2(-17, -164)
+texture = ExtResource("1_6og8k")
+
+[node name="DoorA1" type="Sprite2D" parent="."]
+position = Vector2(-104, 145)
+texture = ExtResource("2_exvxl")
+
+[node name="DoorB1" type="Sprite2D" parent="."]
+position = Vector2(-128, 454)
+texture = ExtResource("3_p86co")
+
+[node name="Floatingrocks1" type="Sprite2D" parent="."]
+position = Vector2(379, -164)
+texture = ExtResource("4_f201s")
+
+[node name="TfDdA51" type="Sprite2D" parent="."]
+position = Vector2(558, 322)
+texture = ExtResource("5_hqij7")
+
+[node name="TfDdB1" type="Sprite2D" parent="."]
+position = Vector2(301, 537)
+texture = ExtResource("6_vapk6")
+
+[node name="DdWaterfallSheet" type="Sprite2D" parent="."]
+position = Vector2(759, -176)
+texture = ExtResource("7_624br")
+
+[node name="TfDarkdimensionSheet" type="Sprite2D" parent="."]
+position = Vector2(879, 287)
+texture = ExtResource("8_x4j4t")
+
+[node name="TfDdB2" type="Sprite2D" parent="."]
+position = Vector2(297, 203)
+texture = ExtResource("6_vapk6")
+
+[node name="TfDdB3" type="Sprite2D" parent="."]
+position = Vector2(580, 412)
+texture = ExtResource("9_b7ih1")
+
+[node name="TfDdB4" type="Sprite2D" parent="."]
+position = Vector2(571, 384)
+texture = ExtResource("10_y2snp")

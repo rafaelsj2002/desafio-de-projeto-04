@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5hkl5esoy4cy"]
+
+[ext_resource type="Texture2D" uid="uid://dudi4n1tvswis" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Tower/Tower_Purple.png" id="1_7vf3y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v3ge6"]
+radius = 40.1995
+
+[node name="PurpleTower" type="StaticBody2D"]
+
+[node name="TowerPurple" type="Sprite2D" parent="."]
+position = Vector2(0, -80)
+texture = ExtResource("1_7vf3y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -12)
+shape = SubResource("CircleShape2D_v3ge6")
